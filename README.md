@@ -1,12 +1,41 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This project showcases my work, skills, and experience in web development and other professional areas.
 
-Currently, two official plugins are available:
+## 🔍 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hi! I'm Ben Raymond Aniasco, a Web developer passionate about building intuitive, user-friendly websites and applications. This portfolio is designed to highlight some of the projects I’ve worked on, my technical skills, and how to contact me.
 
-## Expanding the ESLint configuration
+## 📁 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design for all devices
+- Smooth scrolling and interactive elements
+- Projects section with live links and GitHub repos
+- Contact form
+- Downloadable resume
+
+## 🛠 Tech Stack
+
+- **HTML5**
+- **CSS3 / SCSS**
+- **JavaScript / TypeScript**
+- **React.js** 
+- **Node.js / Express**
+- **Git & GitHub**
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+# Clone the repo
+git clone https://github.com/Bintooot/portfolio.git
+
+# Navigate to the project folder
+cd portfolio
+
+# Install dependencies (if using a framework like React/Vue)
+npm install
+
+# Start development server
+npm start
