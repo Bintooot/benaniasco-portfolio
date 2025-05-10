@@ -1,0 +1,15 @@
+:root {
+   scroll-padding-top: 120px;
+}
+
+.progress-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
