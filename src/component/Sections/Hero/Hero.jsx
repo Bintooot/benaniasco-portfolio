@@ -20,10 +20,10 @@ const Hero = (props) => {
               → Hello, I'm <span className="name">Ben Raymond Aniasco</span>
             </h2>
             <p>Web Developer | Problem Solver | Creative Thinker</p>
-            <div className="button-wrapper">
+            <section className="button-box">
               <Button text="Download CV" icon={<FileDownloadOutlinedIcon />} />
               <Button text="Contact Me" icon={<EmailOutlinedIcon />} />
-            </div>
+            </section>
           </div>
         </div>
       </div>

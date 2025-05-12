@@ -4,7 +4,7 @@ const Card = (props) => {
   return (
     <div className="card">
       <div className="card-content">
-        <img src={props.icon} alt={props.alt} width={40} height={40} />
+        <img src={props.icon} alt={props.alt} width={30} height={30} />
         <h3>{props.title}</h3>
       </div>
     </div>

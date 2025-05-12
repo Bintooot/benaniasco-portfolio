@@ -4,7 +4,6 @@ import "./App.css";
 import Hero from "./component/Sections/Hero/Hero";
 import Spinner from "./component/Spinner/Spinner";
 import AboutMe from "./component/Sections/AboutMe/AboutMe";
-import Skills from "./component/Sections/Skills/Skills";
 import Projects from "./component/Sections/Projects/Projects";
 
 const App = () => {
@@ -25,7 +24,6 @@ const App = () => {
           <Navbar />
           <Hero id="home" />
           <AboutMe id="about-me" />
-          <Skills id="skills" />
           <Projects id="projects" />
         </>
       )}

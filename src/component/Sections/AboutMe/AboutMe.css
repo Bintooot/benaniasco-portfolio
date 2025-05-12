@@ -1,78 +1,91 @@
 .about-me-wrapper {
-    height: 100vh;
+    min-height: 85vh;
     width: 90%;
     margin: 0 auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.about-me-wrapper > h2 {
-    font-size: 3rem;
-    text-align: center;
-   letter-spacing: 10px;
-   margin-bottom: 20px;
-}
-
-.about-me-content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.about-me-info {
-    width: 50%;
-    text-align: center;
-}
-
-.about-me-image {
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about-me-image > img {
+.about-me-info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-wrapper {
+    width: 30%;
+}
+
+.img-wrapper > img {
     border-radius: 10px;
-    box-shadow: 0 0 10px 0px rgba(189, 189, 189, 0.5);
+    box-shadow: 0 0 5px white;
 }
 
-.about-me-image > img:hover {
-    transform: scale(1.05);
-    transition: all 0.3s ease;
- 
-}
-
-.about-me-info > h3 {
-    font-size: 2rem;
-    font-weight: 600;
-    color: #2196F3;
+.about-me-wrapper > h2 {
+    font-size: 3rem;
+    letter-spacing: 10px;
     margin-bottom: 20px;
 }
 
-.about-me-info > ul {
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-bottom: 20px;
-    text-align: left;
+.button-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.about-me-info > ul > li {
+.info-card {
+    background-color: #0F001A;
+    border-radius: 10px;
+    box-shadow: 0 0 5px white;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.info-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.info-card h2 {
+    font-size: 3rem;
     margin-bottom: 10px;
-    list-style-position: inside;
-    list-style: none;
-    position: relative;
-    padding-left: 20px;
 }
 
-.about-me-info > ul > li::before {
-    content: '▹';
-    display: inline-block;
-    margin-right: 0.75em;
-    transform: translateY(1px);
-    color: #2196F3;
-    width: 1em;
+.info-card h3 {
     font-size: 2rem;
-    position: absolute;
-    left: 0;
 }
 
+.info-card ul {
+    list-style-position: inside;
+    line-height: 30px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.button-wrapper> div > ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 5px;
+}
+
+.button-wrapper> div >ul > li:hover {
+   border-bottom: 1px solid #7DB7FF;
+   color: #7DB7FF;
+   cursor: pointer;
+}   
+
+.data {
+    display: flex;
+    flex-wrap: wrap;
+}
