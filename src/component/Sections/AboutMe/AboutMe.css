@@ -1,91 +1,80 @@
+#about-me{
+    margin-bottom: 20px;
+}
+
 .about-me-wrapper {
     min-height: 85vh;
     width: 90%;
     margin: 0 auto;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about-me-info {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.img-wrapper {
-    width: 30%;
-}
-
-.img-wrapper > img {
-    border-radius: 10px;
-    box-shadow: 0 0 5px white;
-}
-
-.about-me-wrapper > h2 {
-    font-size: 3rem;
-    letter-spacing: 10px;
-    margin-bottom: 20px;
-}
-
-.button-heading{
+section.about-me-content{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.info-card {
-    background-color: #0F001A;
-    border-radius: 10px;
-    box-shadow: 0 0 5px white;
+section.about-me-content > div.left-col{
+    width: 40%;
     padding: 20px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.info-card-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    width: 70%;
+    align-items: center ;
 }
 
-.info-card h2 {
-    font-size: 3rem;
+section.about-me-content > div.left-col > img{
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.866);
+}
+
+
+
+section.about-me-content > div.right-col > img{
+    width: 60%;
+}
+
+
+section.about-me-content>div.right-col {
+    width: 60%;
+    padding: 20px;
+}
+
+div.info-card > h2{
+    font-size: 3.5rem;
     margin-bottom: 10px;
 }
 
-.info-card h3 {
+div.info-card > h3{
     font-size: 2rem;
+    margin-bottom: 10px;
+    color: #7DB7FF;
 }
 
-.info-card ul {
-    list-style-position: inside;
-    line-height: 30px;
-}
-
-.button-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
-.button-wrapper> div > ul {
+div.info-card > ul{
     list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-    padding: 5px;
+    padding: 0;
+    margin: 0;
 }
 
-.button-wrapper> div >ul > li:hover {
-   border-bottom: 1px solid #7DB7FF;
-   color: #7DB7FF;
-   cursor: pointer;
-}   
-
-.data {
-    display: flex;
-    flex-wrap: wrap;
+div.info-card > ul > li{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
 }
+
+div.info-card>ul>li::before{
+    content: "➔";
+    color: #7DB7FF;
+    margin-right: 10px;
+    filter: drop-shadow(0 0 5px #7DB7FF);
+}
+
+
+
+
+
+
+

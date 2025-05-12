@@ -6,7 +6,7 @@
 }
 
 .skills-wrapper > h2 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: center;
     letter-spacing: 10px;
     margin-bottom: 20px;
@@ -18,4 +18,35 @@
     margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+}
+
+div.data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+div.button-links {
+    width: 100%;
+    padding: 20px;
+}
+
+div.button-links>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.button-links>ul>li {
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+div.button-links>ul>li:hover {
+    color: #7DB7FF;
+    border-bottom: 1px solid #7DB7FF;
 }
