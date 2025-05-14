@@ -1,5 +1,6 @@
 import React from "react";
 import "./Banner.css";
+import { data } from "../../utils/Data";
 
 const Banner = () => {
   return (
@@ -7,22 +8,22 @@ const Banner = () => {
       <section className="banner-wrapper">
         <div className="card-wrapper">
           <div className="card-item">
-            <h2>0</h2>
+            <h2>{data.client}</h2>
             <p>Clients</p>
           </div>
           <div className="separator"></div>
           <div className="card-item">
-            <h2>0</h2>
+            <h2>{data.client}</h2>
             <p>Employees</p>
           </div>
           <div className="separator"></div>
           <div className="card-item">
-            <h2>0</h2>
+            <h2>{data.projects}</h2>
             <p>Projects</p>
           </div>
           <div className="separator"></div>
           <div className="card-item">
-            <h2>0</h2>
+            <h2>{data.experience}</h2>
             <p>Years of Experience</p>
           </div>
         </div>
