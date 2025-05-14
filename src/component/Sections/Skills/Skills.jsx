@@ -8,7 +8,6 @@ import {
   database_skills,
   tools_skills,
 } from "../../../utils/Skills";
-import Banner from "../../Banner/Banner";
 
 const Skills = (props) => {
   const [data, setData] = useState(all_skills);
@@ -31,7 +30,7 @@ const Skills = (props) => {
 
   return (
     <div className="skills-wrapper" id={props.id}>
-      <h2>Skills</h2>
+      <h2>Skills & Tools</h2>
       <div className="button-links">
         <ul>
           <li

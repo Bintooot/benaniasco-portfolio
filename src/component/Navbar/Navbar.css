@@ -1,11 +1,13 @@
 header {
     background-color: #ffffffb8;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     height: 75px;
     width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 0 10px;
     border-radius: 10px;
     position: sticky;

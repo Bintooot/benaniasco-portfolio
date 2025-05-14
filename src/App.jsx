@@ -6,6 +6,7 @@ import Spinner from "./component/Spinner/Spinner";
 import AboutMe from "./component/Sections/AboutMe/AboutMe";
 import Projects from "./component/Sections/Projects/Projects";
 import Skills from "./component/Sections/Skills/Skills";
+
 const App = () => {
   const [loading, setLoading] = useState(false);
 
