@@ -38,6 +38,7 @@ const Skills = (props) => {
               handleActive("All");
             }}
             className={active === "All" ? "active" : ""}
+            defaultChecked={true}
           >
             All
           </li>

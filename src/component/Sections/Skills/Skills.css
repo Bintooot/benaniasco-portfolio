@@ -43,10 +43,17 @@ div.button-links>ul>li {
     cursor: pointer;
     list-style: none;
     padding: 10px;
+    letter-spacing: 5px;
     border: 1px solid transparent;
+    font-size: 1.5rem;
 }
 
 div.button-links>ul>li:hover {
+    color: #7DB7FF;
+    border-bottom: 1px solid #7db7ff66;
+}
+
+div.button-links>ul>li.active {
     color: #7DB7FF;
     border-bottom: 1px solid #7DB7FF;
 }
