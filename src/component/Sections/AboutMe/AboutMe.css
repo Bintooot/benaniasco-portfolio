@@ -24,9 +24,14 @@ section.about-me-content > div.left-col{
 
 section.about-me-content > div.left-col > img{
     border-radius: 10px;
-    box-shadow: 0 0 20px 0 rgba(35, 81, 187, 0.866);
+    box-shadow: 0 0 10px 0 rgba(251, 251, 251, 0.866);
 }
 
+
+section.about-me-content>div.left-col>img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
 
 
 section.about-me-content > div.right-col > img{
