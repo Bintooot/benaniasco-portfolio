@@ -7,6 +7,7 @@ import AboutMe from "./component/Sections/AboutMe/AboutMe";
 import Projects from "./component/Sections/Projects/Projects";
 import Skills from "./component/Sections/Skills/Skills";
 import Footer from "./component/Sections/Footer/Footer";
+import ContactMe from "./component/Sections/ContactMe/CantactMe";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -28,6 +29,7 @@ const App = () => {
           <AboutMe id="about-me" />
           <Skills id="skills" />
           <Projects id="projects" />
+          <ContactMe id="contact-me" />
           <Footer id="footer" />
         </>
       )}

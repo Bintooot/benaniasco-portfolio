@@ -49,6 +49,15 @@ const Navbar = () => {
               Projects
             </a>
           </li>
+          <li>
+            <a
+              href="#contact-me"
+              className={active === "contact-me" ? "active" : ""}
+              onClick={() => handleActive("contact-me")}
+            >
+              Contact Me
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

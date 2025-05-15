@@ -1,4 +1,3 @@
-import projectImage1 from "../assets/photo1.jpg";
 import projectImage2 from "../assets/photo2.jpg";
 import projectImage3 from "../assets/photo3.jpg";
 
@@ -8,7 +7,7 @@ export const projectData = [
     name: "Project 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-    image: projectImage1,
+    image: projectImage2,
     techStack: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express"],
     github: "https://github.com/project1",
     live: "https://project1.com",
@@ -46,22 +45,5 @@ export const projectData = [
     ],
     github: "https://github.com/project3",
     live: "https://project3.com",
-  },
-  {
-    id: 4,
-    name: "Project 4",
-    description: "Project 4 description",
-    image: projectImage1,
-    techStack: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
-      "Node.js",
-      "Express",
-      "MongoDB",
-    ],
-    github: "https://github.com/project4",
-    live: "https://project4.com",
   },
 ];
