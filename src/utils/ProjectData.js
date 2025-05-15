@@ -1,0 +1,67 @@
+import projectImage1 from "../assets/photo1.jpg";
+import projectImage2 from "../assets/photo2.jpg";
+import projectImage3 from "../assets/photo3.jpg";
+
+export const projectData = [
+  {
+    id: 1,
+    name: "Project 1",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    image: projectImage1,
+    techStack: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express"],
+    github: "https://github.com/project1",
+    live: "https://project1.com",
+  },
+  {
+    id: 2,
+    name: "Project 2",
+    description: "Project 2 description",
+    image: projectImage2,
+    techStack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+    ],
+    github: "https://github.com/project2",
+    live: "https://project2.com",
+  },
+  {
+    id: 3,
+    name: "Project 3",
+    description: "Project 3 description",
+    image: projectImage3,
+    techStack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+    ],
+    github: "https://github.com/project3",
+    live: "https://project3.com",
+  },
+  {
+    id: 4,
+    name: "Project 4",
+    description: "Project 4 description",
+    image: projectImage1,
+    techStack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+    ],
+    github: "https://github.com/project4",
+    live: "https://project4.com",
+  },
+];

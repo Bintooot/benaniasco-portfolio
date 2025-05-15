@@ -6,6 +6,7 @@ import Spinner from "./component/Spinner/Spinner";
 import AboutMe from "./component/Sections/AboutMe/AboutMe";
 import Projects from "./component/Sections/Projects/Projects";
 import Skills from "./component/Sections/Skills/Skills";
+import Footer from "./component/Sections/Footer/Footer";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -27,6 +28,7 @@ const App = () => {
           <AboutMe id="about-me" />
           <Skills id="skills" />
           <Projects id="projects" />
+          <Footer id="footer" />
         </>
       )}
     </div>
