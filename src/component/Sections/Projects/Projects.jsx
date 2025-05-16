@@ -8,11 +8,9 @@ const Projects = (props) => {
     <div className="projects-wrapper" id={props.id}>
       <h2>Projects</h2>
       <div className="projects-container">
-        <div className="project-card-wrapper">
-          {projectData.map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
-        </div>
+        {projectData.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
       </div>
     </div>
   );

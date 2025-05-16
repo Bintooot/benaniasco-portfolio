@@ -15,7 +15,8 @@ export const projectData = [
   {
     id: 2,
     name: "Project 2",
-    description: "Project 2 description",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
     image: projectImage2,
     techStack: [
       "HTML",
@@ -32,7 +33,8 @@ export const projectData = [
   {
     id: 3,
     name: "Project 3",
-    description: "Project 3 description",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.s",
     image: projectImage3,
     techStack: [
       "HTML",

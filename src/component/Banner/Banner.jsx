@@ -24,7 +24,7 @@ const Banner = () => {
           <div className="separator"></div>
           <div className="card-item">
             <h2>{data.experience}</h2>
-            <p>Years of Experience</p>
+            <p>Experience</p>
           </div>
         </div>
       </section>

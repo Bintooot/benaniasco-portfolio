@@ -49,9 +49,6 @@ const CantactMe = (props) => {
           </div>
         </div>
       </section>
-      <footer>
-        <p>&copy; 2025 Ben Raymond Anaisco. All rights reserved.</p>
-      </footer>
     </>
   );
 };
