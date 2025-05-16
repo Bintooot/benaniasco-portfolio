@@ -1,63 +1,59 @@
 import React from "react";
 import "./ContactMe.css";
-import logo from "../../../assets/logo.png";
+import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
+import PhoneOutlinedIcon from "@mui/icons-material/PhoneOutlined";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
-import PhoneIcon from "@mui/icons-material/Phone";
-import InstagramIcon from "@mui/icons-material/Instagram";
 
-const ContactMe = (props) => {
+const CantactMe = (props) => {
   return (
-    <div className="contact-me-wrapper" id={props.id}>
-      <div className="contact-info">
-        <div className="contact-info-text">
-          <h2>Get in touch</h2>
-          <p className="contact-tagline">
-            Have a project or idea? Let’s build something amazing together.
-          </p>
-          <div className="social-wrapper">
-            <div className="logo">
-              <img src={logo} alt="logo" width={300} height={250} />
-            </div>
-            <ul className="social-links">
-              <li className="social-items">
-                <a href="">
+    <>
+      <section className="contact-me-wrapper" id={props.id}>
+        <div className="tagline-wrapper">
+          <h1>Let's talk about your next project.</h1>
+        </div>
+        <div className="contact-info">
+          <div className="left-col">
+            <h2>Contact Me</h2>
+            <p>
+              If you have any questions or would like to get in touch, please
+              don't hesitate to contact me.
+            </p>
+          </div>
+          <div className="right-col">
+            <ul className="contact-info-list">
+              <li className="contact-info-item">
+                <a href="mailto:aniascoben@gmail.com">
                   <span>
-                    <LinkedInIcon />
-                  </span>
+                    <EmailOutlinedIcon style={{ fontSize: "2rem" }} />
+                  </span>{" "}
+                  anaiscoben@gmail.com
+                </a>
+              </li>
+              <li className="contact-info-item">
+                <a href="tel:+63993673625">
+                  <span>
+                    <PhoneOutlinedIcon style={{ fontSize: "2rem" }} />
+                  </span>{" "}
+                  +63993673625
+                </a>
+              </li>
+              <li className="contact-info-item">
+                <a href="https://www.linkedin.com/in/ben-raymond-aniasco-381523334/">
+                  <span>
+                    <LinkedInIcon style={{ fontSize: "2rem" }} />
+                  </span>{" "}
                   LinkedIn
-                </a>
-              </li>
-              <li className="social-items">
-                <a href="">
-                  <span>
-                    <EmailIcon />
-                  </span>
-                  Email
-                </a>
-              </li>
-              <li className="social-items">
-                <a href="">
-                  <span>
-                    <PhoneIcon />
-                  </span>
-                  Phone
-                </a>
-              </li>
-              <li className="social-items">
-                <a href="">
-                  <span>
-                    <InstagramIcon />
-                  </span>
-                  Instagram
                 </a>
               </li>
             </ul>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <footer>
+        <p>&copy; 2025 Ben Raymond Anaisco. All rights reserved.</p>
+      </footer>
+    </>
   );
 };
 
-export default ContactMe;
+export default CantactMe;
