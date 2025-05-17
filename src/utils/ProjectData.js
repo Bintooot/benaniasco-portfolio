@@ -4,7 +4,7 @@ import projectImage3 from "../assets/photo3.jpg";
 export const projectData = [
   {
     id: 1,
-    name: "Project 1",
+    name: "Request Management System",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
     image: projectImage2,
