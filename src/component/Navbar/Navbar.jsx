@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import "./Navbar.css";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   const [active, setActive] = useState("home");
@@ -60,6 +61,20 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
+      <div className="icon-wrapper">
+        <a href="https://github.com/Bintooot" target="_blank">
+          <FaGithub style={{ fontSize: "25px" }} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ben-raymond-aniasco-381523334/"
+          target="_blank"
+        >
+          <FaLinkedin style={{ fontSize: "25px" }} />
+        </a>
+        <a href="https://www.instagram.com/raammm03/" target="_blank">
+          <FaInstagram style={{ fontSize: "25px" }} />
+        </a>
+      </div>
     </header>
   );
 };

@@ -11,7 +11,6 @@ const ProjectCard = (props) => {
             src={props.project.image}
             alt={props.project.name}
             width="100%"
-            height="100%"
           />
         </div>
         <div className="project-info-wrapper">
@@ -25,6 +24,10 @@ const ProjectCard = (props) => {
                   <span className="tech-stack-item">{tech}</span>
                 ))}
               </div>
+            </div>
+            <div className="time">
+              <h3>Date & Time: </h3>
+              <span>{props.project.time}</span>
             </div>
           </div>
           <div className="button-wrapper">
