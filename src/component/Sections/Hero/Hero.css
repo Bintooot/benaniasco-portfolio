@@ -74,3 +74,25 @@
     align-items: center;
     gap: 20px;
 }
+
+@media (max-width: 1024px) {
+    .hero-content > h1{
+        font-size: 3rem;
+        letter-spacing: 5px;
+        text-wrap: balance;
+    }
+
+    .hero-text > h2{
+        font-size: 2rem;
+        text-wrap: balance;
+    }
+
+    .hero-text > p{
+        font-size: 1.5rem;
+    }
+
+    .separator-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}

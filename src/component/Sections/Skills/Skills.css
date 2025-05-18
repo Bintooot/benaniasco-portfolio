@@ -30,13 +30,20 @@ div.data {
 
 
 div.button-links {
-    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
     padding: 20px;
+    margin: 20px 0;
+    white-space: nowrap;
 }
+
+
 
 div.button-links>ul {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 div.button-links>ul>li {
@@ -56,4 +63,33 @@ div.button-links>ul>li:hover {
 div.button-links>ul>li.active {
     color: #7DB7FF;
     border-bottom: 1px solid #7DB7FF;
+}
+
+
+@media (max-width: 1024px) {
+    .skills-wrapper > h2{
+        font-size: 3rem;
+        letter-spacing: 10px;
+    }
+
+    .skills-content-wrapper{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    div.data{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-wrapper > h2{
+        font-size: 2rem;
+        letter-spacing: 5px;
+    }
+
+    .skills-content-wrapper{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

@@ -64,6 +64,7 @@ div.info-card > ul{
 
 div.info-card > ul > li{
     margin-bottom: 10px;
+    text-align: justify;
     font-size: 1.5rem;
 }
 
@@ -74,9 +75,51 @@ div.info-card>ul>li::before{
     filter: drop-shadow(0 0 5px #7DB7FF);
 }
 
+@media (max-width: 1024px) {
+    section.about-me-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section.about-me-content > div.left-col{
+        width: 100%;
+    }
 
+    section.about-me-content > div.right-col{
+        width: 100%;
+        text-wrap: balance;
+        text-align: start;
+    }
 
+    div.info-card > h2{
+        font-size: 4rem;
+    }
 
+    div.info-card > h3{
+        font-size: 2rem;
+    }
 
+    div.info-card > ul > li{
+        font-size: 1.rem;
+        text-align: justify;
+    }
+}
 
+@media (max-width: 768px) {
 
+    div.info-card > h2{
+        font-size: 3rem;
+        letter-spacing: 10px;
+    }
+
+    div.info-card > h3{
+        font-size: 1.5rem;
+    }
+
+    div.info-card > ul > li{
+        font-size: 1rem;
+    }
+    
+    
+
+}

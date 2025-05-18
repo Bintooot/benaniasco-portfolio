@@ -1,5 +1,6 @@
 import RMS from "../assets/RMS.png";
 import Radiant from "../assets/Radiant.png";
+import AppController from "../assets/App-Controller.png";
 
 export const projectData = [
   {
@@ -31,5 +32,16 @@ export const projectData = [
     techStack: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
     github: "https://github.com/project2",
     live: "https://project2.com",
+  },
+  {
+    id: 3,
+    name: "IoT Mobile Controlling Application",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    image: AppController,
+    time: "October 2024 - November 2024",
+    techStack: ["React Native", "CSS", "JavaScript", "Expo", "Firebase"],
+    github: "https://github.com/project3",
+    live: "https://project3.com",
   },
 ];
