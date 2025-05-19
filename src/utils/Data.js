@@ -1,5 +1,5 @@
 export const data = {
-  client: "10",
-  projects: "5",
+  client: "3",
+  projects: "3",
   experience: "4",
 };

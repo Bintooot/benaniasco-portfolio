@@ -2,7 +2,6 @@ header {
     background-color: #ffffffb8;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    height: 75px;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -13,67 +12,195 @@ header {
     position: sticky;
     top: 10px;
     z-index: 100;
-}
+} 
 
-header>nav>ul {
+header > .header-wrapper {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 10px;
 }
 
-header>nav>ul>li {
-    list-style: none;
-    margin: 0 20px;
-}
-
-header>nav>ul>li>a {
-    text-decoration: none;
-    letter-spacing: 2px;
-    color: #000;
-}
-
-
-header>nav>ul>li>a:hover {
-    color: #333461;
-    transition: all 0.3s ease;
+header > .header-wrapper > span.sidebar-btn {
     cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-}
-
-header>nav>ul>li>a.active {
-    color: #333461;
-    text-decoration: underline;
-    text-underline-offset: 5px;
-}
-
-
-
-header>img {
-    width: 150px;
-}
-
-.icon-wrapper {
     color: #000;
+}
+
+header > .header-wrapper > span.sidebar-btn:hover {
+    color: #333461;
+}
+
+header > .header-wrapper > img {
+    height: 75px;
+}
+
+
+
+.sidebar-container {
+    display: none;
+    transition: all 0.3s ease;
+    position: fixed;
+    background-color: transparent;
+    top: 0; 
+    right: 0;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar-container.show{
+    display: block;
+}
+
+.sidebar-container.hide{
+    display: none;
+}
+
+.sidebar-wrapper {
+    width: 50%;
+    padding: 20px;
+    float: right;
+    background-color: #333461b1;
+    backdrop-filter: blur(10px);
+    height: 100%;
+}
+
+ .sidebar-close-btn > .sidebar-close-btn-icon {
+    color: #fff;
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+}
+
+.sidebar-close-btn > .sidebar-close-btn-icon:hover {
+    color: #7DB7FF;
+    cursor: pointer;
+    transform: rotate(90deg);
+    transition: all 0.3s ease;
+}
+
+.sidebar-close-btn {
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
 }
 
-.icon-wrapper > a {
-    text-decoration: none;
-    color: #000;
+.sidebar-wrapper > ul {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-.icon-wrapper > a:hover {
-    color: #333461;
-    transition: all 0.3s ease;
+.sidebar-wrapper > ul > li {
+    list-style: none;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
 }
 
-@media screen and (max-width: 1023px) {
-    nav > ul > li {
-        display: none;
+.sidebar-wrapper > ul > li > a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    display: block;
+    color: #fff;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+
+.sidebar-wrapper>ul>li>a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #7DB7FF;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease;
+}
+
+.sidebar-wrapper>ul>li>a:hover::before {
+    transform: scaleX(1);
+}
+
+.sidebar-wrapper>ul>li>a:hover{
+    font-size: 55px;
+    color: #7DB7FF;
+    transition: all 0.3s ease;
+}
+
+.sidebar-btn > .hamburger-icon:hover{
+    cursor: pointer;
+    color: #000;
+    animation: rotate 0.3s ease;
+    animation-fill-mode: forwards;
+}
+
+
+.sidebar-wrapper>ul>li>a.active{
+    color: #7DB7FF;
+}
+
+
+.sidebar-wrapper > ul > li > a.active::before{
+    transform: scaleX(1);
+}
+
+.social-links-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-links-wrapper > .social-link {
+    color: #fff;
+    cursor: pointer;
+}
+
+.social-links-wrapper>.social-link:hover{
+    color: #7DB7FF;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+
+    to {
+        transform: rotate(-90deg);
+    }
+}
+
+@keyframes underline {
+    from{
+        transform: scaleX(0);
+    }
+    to{
+        transform: scaleX(1);
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .sidebar-wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar-wrapper {
+        width: 100%;
+    }
+
+    .sidebar-wrapper > ul > li > a {
+        font-size: 30px;
     }
 }
