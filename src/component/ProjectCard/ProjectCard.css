@@ -56,7 +56,7 @@
 }
 
 .project-info > h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 600;
     color: #7DB7FF;
 }
@@ -122,5 +122,55 @@
 
     .project-info-wrapper {
         width: 100%;
+    }
+
+    .project-info > h2{
+        font-size: 2.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .project-info > p{
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+    }
+
+    .tech-stack-list > span{
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .project-info > .time{
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .button-wrapper > button.button-link{
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+}
+@media (max-width: 768px) {
+    .project-info > h2{
+        font-size: 2rem;
+        transition: all 0.3s ease;
+    }
+
+    .project-info > p{
+        font-size: 1rem;
+    }
+
+    .project-info > .time{
+        font-size: 0.8rem;
+        transition: all 0.3s ease;
+    }
+
+    .tech-stack-list > span{
+        font-size: 0.8rem;
+        transition: all 0.3s ease;
+    }
+
+    .button-wrapper > button.button-link{
+        font-size: 0.8rem;
+        transition: all 0.3s ease;
     }
 }

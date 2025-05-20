@@ -18,7 +18,12 @@ const Navbar = () => {
     <>
       <header>
         <div className="header-wrapper">
-          <img src={logo} alt="logo.png" width={150} />
+          <div className="header-title-wrapper">
+            <img src={logo} alt="logo.png" width={80} height={80} />
+            <h3 className="header-title">
+              Ben <span>Aniasco</span>
+            </h3>
+          </div>
           <span
             className="sidebar-btn"
             onClick={() => setIsSidebarOpen(!isSidebarOpen)}
@@ -35,7 +40,12 @@ const Navbar = () => {
       >
         <div className="sidebar-wrapper">
           <div className="sidebar-close-btn">
-            <img src={logo} alt="logo.png" width={150} height={110} />
+            <div className="header-title-wrapper">
+              <img src={logo} alt="logo.png" width={80} height={80} />
+              <h3 className="header-title">
+                Ben <span>Aniasco</span>
+              </h3>
+            </div>
             <CloseOutlinedIcon
               className="sidebar-close-btn-icon"
               onClick={() => setIsSidebarOpen(!isSidebarOpen)}

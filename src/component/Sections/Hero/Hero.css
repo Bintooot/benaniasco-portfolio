@@ -2,6 +2,7 @@
     color: #fff;
     display: flex;
     align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 90%;
     height: 80vh;
     margin: 30px auto;
@@ -16,14 +17,15 @@
 }
 
 .hero-content > h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;
     letter-spacing: 10px;
     margin-bottom: 20px;
 }
 
 .hero-text > h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -68,27 +70,75 @@
     grid-row: 2 / 3;
 }
 
-.button-box {
+.button-box{
     display: flex;
+    gap: 10px;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
+
+.button-box-wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+
+.download-cv-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.button-box-wrapper > .separator{
+    width: 1px;
+    height: 40px;
+    background-color: #fff;
+}
+
+.social-links-wrapper{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-link{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #082c57b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link:hover svg{
+    color: #fff;
+    filter: drop-shadow(0 0 10px #465be6);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
 
 @media (max-width: 1024px) {
     .hero-content > h1{
-        font-size: 3rem;
+        font-size: 3.5rem;
+        transition: all 0.3s ease;
         letter-spacing: 5px;
         text-wrap: balance;
     }
 
     .hero-text > h2{
         font-size: 2rem;
+        transition: all 0.3s ease;
         text-wrap: balance;
     }
 
     .hero-text > p{
-        font-size: 1.5rem;
+        transition: all 0.3s ease;
+        font-size: 1rem;
     }
 
     .separator-wrapper{
@@ -118,7 +168,44 @@
         font-size: 1rem;
     }
 
-    .button-box{
+    .button-box {
         flex-direction: column;
+        gap: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    .button-box > .separator {
+        width: 80%;
+        height: 1px;
+    }
+
+    .button-box > .button-box-wrapper,
+    .social-links-wrapper {
+        width: 100%;
+    }
+
+    .social-links-wrapper {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .social-link {
+        padding: 0.4rem;
+    }
+
+    .social-link svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .button-box-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-box-wrapper >.separator{
+        width: 50%;
+        height: 1px;
     }
 }

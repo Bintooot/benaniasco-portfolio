@@ -10,7 +10,6 @@
     
 }
 
-
 .projects-container{
     display: flex;
     flex-direction: column;
@@ -21,5 +20,16 @@
 @media screen and (max-width: 1024px) {
     .projects-wrapper > h2{
         font-size: 3rem;
+        transition: all 0.3s ease;
+        letter-spacing: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .projects-wrapper > h2{
+        font-size: 2rem;
+        transition: all 0.3s ease;
     }
 }

@@ -7,6 +7,7 @@
 
 .skills-wrapper > h2 {
     font-size: 5rem;
+    transition: all 0.3s ease;
     text-align: center;
     letter-spacing: 20px;
     margin-bottom: 20px;
@@ -68,8 +69,14 @@ div.button-links>ul>li.active {
 
 @media (max-width: 1024px) {
     .skills-wrapper > h2{
-        font-size: 3rem;
+        font-size: 3.5rem;
         letter-spacing: 10px;
+        transition: all 0.3s ease;
+    }
+
+    div.button-links>ul>li{
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
     }
 
     .skills-content-wrapper{
@@ -86,6 +93,12 @@ div.button-links>ul>li.active {
     .skills-wrapper > h2{
         font-size: 2rem;
         letter-spacing: 5px;
+        transition: all 0.3s ease;
+    }
+
+    div.button-links>ul>li{
+        font-size: 1rem;
+        transition: all 0.3s ease;
     }
 
     .skills-content-wrapper{

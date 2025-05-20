@@ -2,7 +2,9 @@ import React from "react";
 import "./Hero.css";
 import Button from "../../Button/Button";
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
-import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
+import GithubOutlinedIcon from "@mui/icons-material/GitHub";
+import LinkedInOutlinedIcon from "@mui/icons-material/LinkedIn";
+import EmailOutlinedIcon from "@mui/icons-material/Email";
 
 const Hero = (props) => {
   return (
@@ -21,8 +23,50 @@ const Hero = (props) => {
             </h2>
             <p>Web Developer | Problem Solver | Creative Thinker</p>
             <section className="button-box">
-              <Button text="Download CV" icon={<FileDownloadOutlinedIcon />} />
-              <Button text="Contact Me" icon={<EmailOutlinedIcon />} />
+              <div className="button-box-wrapper">
+                <div className="download-cv-wrapper">
+                  <Button
+                    text="Download CV"
+                    icon={<FileDownloadOutlinedIcon />}
+                  />
+                </div>
+                <div className="separator"></div>
+                <div className="social-links-wrapper">
+                  <a
+                    className="social-link"
+                    href="https://github.com/yourusername"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub Profile"
+                  >
+                    <span>
+                      <GithubOutlinedIcon />
+                    </span>
+                  </a>
+                  <a
+                    className="social-link"
+                    href="https://www.linkedin.com/in/yourusername"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn Profile"
+                  >
+                    <span>
+                      <LinkedInOutlinedIcon />
+                    </span>
+                  </a>
+                  <a
+                    className="social-link"
+                    href="mailto:your.email@example.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Email"
+                  >
+                    <span>
+                      <EmailOutlinedIcon />
+                    </span>
+                  </a>
+                </div>
+              </div>
             </section>
           </div>
         </div>
