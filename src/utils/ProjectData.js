@@ -24,20 +24,20 @@ export const projectData = [
   },
   {
     id: 2,
-    name: "Radiant Reception Booking System (Home Page)",
+    name: "Radiant Reception Booking System (Landing Page)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "A visually engaging landing page designed to promote and facilitate bookings for reception events. It highlights keyservices, showcases venue details, and provides an easy-to-use interface for users to make inquiries or reserve dates",
     image: Radiant,
     time: "September 2024 - October 2024",
-    techStack: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+    techStack: ["HTML", "JavaScript", "React", "Tailwind CSS"],
     github: "https://github.com/project2",
     live: "https://project2.com",
   },
   {
     id: 3,
-    name: "IoT Mobile Controlling Application",
+    name: "IoT Based Mobile Incubator Monitoring & Controller",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "It is a mobile application that allows users to monitor and control the incubator. It also allows users to view the status of the incubator and the eggs inside it.",
     image: AppController,
     time: "October 2024 - November 2024",
     techStack: ["React Native", "CSS", "JavaScript", "Expo", "Firebase"],
