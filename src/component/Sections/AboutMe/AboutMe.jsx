@@ -2,6 +2,7 @@ import React from "react";
 import "./AboutMe.css";
 import profile from "../../../assets/photo-me.jpg";
 import Banner from "../../Banner/Banner";
+
 const AboutMe = (props) => {
   return (
     <div id={props.id}>
@@ -37,7 +38,7 @@ const AboutMe = (props) => {
           </div>
         </section>
       </section>
-      <Banner />
+      <Banner className="banner-wrapper" />
     </div>
   );
 };

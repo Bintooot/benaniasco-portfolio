@@ -21,6 +21,18 @@
     text-align: center;
     letter-spacing: 10px;
     margin-bottom: 20px;
+    animation: drop-shadow 1s ease-in-out infinite;
+}
+
+@keyframes drop-shadow {
+    0% {
+        filter: drop-shadow(0 0 10px #465be6);
+    }
+
+    50% {
+        filter: drop-shadow(0 0 20px #465be6);
+    }
+
 }
 
 .hero-text > h2 {
@@ -28,7 +40,9 @@
     font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
+   
 }
+
 
 .hero-text > h2 > span {
     color: #7DB7FF;
