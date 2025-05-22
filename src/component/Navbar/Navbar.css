@@ -78,10 +78,10 @@ span.sidebar-btn{
 }
 
 .sidebar-wrapper {
-    width: 50%;
+    width: 100%;
     padding: 20px;
     float: right;
-    background-color: #01012b9e;
+    background-color: #01012b;
     backdrop-filter: blur(10px);
     height: 100%;
 }
@@ -146,6 +146,7 @@ span.sidebar-btn{
     transform: scaleX(1);
 }
 
+
 .sidebar-wrapper>ul>li>a:hover{
     font-size: 55px;
     color: #7DB7FF;
@@ -182,6 +183,19 @@ span.sidebar-btn{
     cursor: pointer;
 }
 
+ul.sidebar-links-wrapper > li > a {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.sidebar-links-wrapper > li > a > span{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
 .social-links-wrapper>.social-link:hover{
     color: #7DB7FF;
 }
@@ -217,5 +231,17 @@ span.sidebar-btn{
 @media (max-width: 768px) {
     .sidebar-wrapper {
         width: 100%;
+    }
+
+    
+
+    .sidebar-wrapper > ul > li > a {
+        font-size: 30px;
+    }
+
+    .sidebar-wrapper > ul > li > a:hover{
+        font-size: 35px;
+        color: #7DB7FF;
+        transition: all 0.3s ease;
     }
 }

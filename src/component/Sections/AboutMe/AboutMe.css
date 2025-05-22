@@ -1,6 +1,11 @@
+#about-me{
+    background-image: url('../../../assets/background/aboutme.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
 .about-me-wrapper {
-    width: 90%;
-    margin: 50px auto;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
@@ -109,6 +114,12 @@ div.info-card>ul>li::before{
 
 @media (max-width: 768px) {
 
+    .left-col > img{
+        width: 200px;
+        height: 250px;
+        transition: all 0.3s ease;
+    }
+
     div.info-card > h2{
         font-size: 2.5rem;
         letter-spacing: 10px;
@@ -146,6 +157,8 @@ div.info-card>ul>li::before{
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
+
+
 
 @keyframes fadeInLeft {
     from {
