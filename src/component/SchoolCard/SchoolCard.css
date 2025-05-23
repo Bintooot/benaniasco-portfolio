@@ -1,0 +1,57 @@
+.education-card {
+    width: 100%;
+    border: 1px solid #afacacb4;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    width: 70%;
+    line-height: 2rem;
+}
+
+.info-item > h3 {
+    font-size: 2rem;
+}
+
+.info-item > p {
+    font-size: 1.5rem;
+}
+
+.info-item>span {
+    font-size: 1.2rem;
+}
+
+.info-item>ul> li {
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+.info-item>ul>li::before{
+    content: "➔";
+    margin-right: 5px;
+}
+
+
+@media (max-width: 1024px){
+    .education-card{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .info{
+        width: 100%;
+        line-height: 3rem;
+    }
+
+}

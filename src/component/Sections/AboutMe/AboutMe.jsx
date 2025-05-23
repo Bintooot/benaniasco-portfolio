@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./AboutMe.css";
 import profile from "../../../assets/photo-me.jpg";
+import { educData } from "../../../utils/EducationalData.js";
 import Banner from "../../Banner/Banner";
+import SchoolCard from "../../SchoolCard/SchoolCard.jsx";
 
 const AboutMe = (props) => {
   return (
@@ -37,6 +39,25 @@ const AboutMe = (props) => {
             </div>
           </div>
         </section>
+      </section>
+      <section className="educ-background-wrapper">
+        <h2>Educational Background</h2>
+        <div className="educ-background-content">
+          {educData &&
+            educData.map((items) => {
+              return (
+                <SchoolCard
+                  key={items.id}
+                  schoolname={items.schoolName}
+                  year={items.year}
+                  logo={items.schoolLogo}
+                  relevantCourses={items.relevantCourses}
+                  capstoneProject={items.capstoneProject}
+                  degree={items.degree}
+                />
+              );
+            })}
+        </div>
       </section>
       <Banner className="banner-wrapper" />
     </div>
