@@ -19,7 +19,7 @@ export const projectData = [
       "Express",
       "MongoDB",
     ],
-    github: "https://github.com/project1",
+    github: "https://github.com/Bintooot/request_management_system.git",
     live: "https://project1.com",
   },
   {
@@ -41,7 +41,7 @@ export const projectData = [
     image: AppController,
     time: "October 2024 - November 2024",
     techStack: ["React Native", "CSS", "JavaScript", "Expo", "Firebase"],
-    github: "https://github.com/project3",
+    github: "https://github.com/Bintooot/incubator-app-controller",
     live: "https://project3.com",
   },
 ];

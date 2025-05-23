@@ -91,15 +91,30 @@
 
 .button-wrapper {
     display: flex;
+    align-items: center;
     margin: 0 auto;
     gap: 20px;
 }
 
-.button-wrapper > button.button-link{
-    padding: 10px 20px;
-    font-size: 1rem;
+.button-wrapper > a.button-link {
+    border: 1px solid #7DB7FF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    width: 100px;
+    color: #7DB7FF;
+    border-radius: 10px;
 }
 
+.button-wrapper > a.button-link:hover{
+    background-color: #7DB7FF;
+    color: #02234c;
+  
+    box-shadow: 0 0 10px #7DB7FF;
+}
 .project-info > .time {
     display: flex;
     align-items: center;

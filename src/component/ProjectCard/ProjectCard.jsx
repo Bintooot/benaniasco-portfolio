@@ -31,14 +31,24 @@ const ProjectCard = (props) => {
             </div>
           </div>
           <div className="button-wrapper">
-            <button className="button-link">
+            <a
+              className="button-link"
+              href={props.project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub />
               Github
-            </button>
-            <button className="button-link">
+            </a>
+            <a
+              className="button-link"
+              target="_blank"
+              href={props.project.live}
+              rel="noopener noreferrer"
+            >
               <FaExternalLinkAlt />
               Live
-            </button>
+            </a>
           </div>
         </div>
       </div>

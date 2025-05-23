@@ -30,7 +30,7 @@ const App = () => {
           <Skills id="skills" />
           <Projects id="projects" />
           <ContactMe id="contact-me" />
-          <Footer id="footer" />
+          <Footer />
         </>
       )}
     </div>

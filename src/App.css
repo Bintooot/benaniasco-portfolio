@@ -2,13 +2,8 @@
    scroll-padding-top: 100px;
 }
 
-.progress-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
-}
-
 html {
+   width: 100%;
+   overflow-x: hidden;
    scroll-behavior: smooth;
 }
