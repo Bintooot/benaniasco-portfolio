@@ -1,5 +1,6 @@
 .footer-wrapper {
 width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 height: 100px;
 background-color: #01012b;
 display: flex;

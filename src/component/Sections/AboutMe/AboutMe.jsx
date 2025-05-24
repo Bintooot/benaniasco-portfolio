@@ -8,6 +8,7 @@ import SchoolCard from "../../SchoolCard/SchoolCard.jsx";
 const AboutMe = (props) => {
   return (
     <div id={props.id}>
+      <Banner className="banner-wrapper" />
       <section className="about-me-wrapper">
         <section className="about-me-content">
           <div className="left-col">
@@ -59,7 +60,6 @@ const AboutMe = (props) => {
             })}
         </div>
       </section>
-      <Banner className="banner-wrapper" />
     </div>
   );
 };

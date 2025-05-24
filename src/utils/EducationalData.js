@@ -2,8 +2,8 @@ import Logo from "../assets/um-logo.png";
 export const educData = [
   {
     id: "1",
-    degree: "Bachelor of Science in Infomation Technology (BSIT)",
-    schoolName: "University of Mindanao Tagum College",
+    degree: "Bachelor of Science in Infomation Technology",
+    schoolName: "University of Mindanao Tagum College (UMTC)",
     year: "2021 - 2025",
     schoolLogo: Logo,
     relevantCourses: "Algorithms, Web Development, Database Systems",

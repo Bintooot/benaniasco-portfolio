@@ -1,5 +1,6 @@
 section.contact-me-wrapper {
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +17,7 @@ section.contact-me-wrapper {
 }
 
 .tagline-wrapper>h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
     color: #7DB7FF;
     filter: drop-shadow(0 0 10px #7DB7FF);
     text-wrap: balance;

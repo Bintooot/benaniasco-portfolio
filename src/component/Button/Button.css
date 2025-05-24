@@ -13,6 +13,7 @@ button {
     transition: all .5s ease-in-out;
     position: relative;
     overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 1px solid #3F4179;
     z-index: 1;
 }

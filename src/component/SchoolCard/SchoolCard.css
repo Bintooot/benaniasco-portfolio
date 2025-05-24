@@ -1,57 +1,50 @@
 .education-card {
-    width: 100%;
-    border: 1px solid #afacacb4;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 80%;
+  display: flex;
+  padding: 20px;
+  border: 1px solid rgba(159, 157, 157, 0.521);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  gap: 20px;
 }
 
-.logo {
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.info{
-    width: 70%;
-    line-height: 2rem;
+.education-card > .logo {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .info-item > h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .info-item > p {
-    font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-size: 1rem;
 }
 
-.info-item>span {
-    font-size: 1.2rem;
+.info-item > ul > li {
+  padding: 10px;
+  list-style: none;
 }
 
-.info-item>ul> li {
-    font-size: 1.1rem;
-    list-style: none;
+.info-item > ul > li::before {
+  content: "➔";
+  margin-right: 10px;
 }
 
-.info-item>ul>li::before{
-    content: "➔";
-    margin-right: 5px;
-}
+@media (max-width: 1023px) {
+  .education-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-
-@media (max-width: 1024px){
-    .education-card{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    .info{
-        width: 100%;
-        line-height: 3rem;
-    }
-
+  .education-card > .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }

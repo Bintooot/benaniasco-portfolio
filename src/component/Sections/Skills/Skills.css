@@ -1,125 +1,119 @@
 .skills-wrapper {
-    min-height: 100vh;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 90%;
-    margin: 50px auto;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+  margin: 50px auto;
 }
 
 .skills-header > h2 {
-    font-size: 5rem;
-    transition: all 0.3s ease;
-    letter-spacing: 20px;
-    margin-bottom: 20px;
+  font-size: 5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  letter-spacing: 20px;
+  margin-bottom: 20px;
 }
 
 .skills-header > p {
-    font-size: 2.5rem;
-    color: #7DB7FF;
+  font-size: 2.5rem;
+  color: #7db7ff;
 }
-
 
 div.data {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 100%;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-around;
 }
-
 
 div.button-links {
-    max-width: 100%;
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 20px;
-    margin: 20px 0;
-    white-space: nowrap;
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px;
+  margin: 20px 0;
+  white-space: nowrap;
 }
 
-
-
-div.button-links>ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+div.button-links > ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-div.button-links>ul>li {
-    cursor: pointer;
-    list-style: none;
-    padding: 10px;
-    letter-spacing: 5px;
-    border: 1px solid transparent;
-    font-size: 1.5rem;
+div.button-links > ul > li {
+  cursor: pointer;
+  list-style: none;
+  padding: 10px;
+  letter-spacing: 5px;
+  border: 1px solid transparent;
+  font-size: 1.5rem;
 }
 
-div.button-links>ul>li:hover {
-    color: #7DB7FF;
-    border-bottom: 1px solid #7db7ff66;
+div.button-links > ul > li:hover {
+  color: #7db7ff;
+  border-bottom: 1px solid #7db7ff66;
 }
 
-div.button-links>ul>li.active {
-    color: #7DB7FF;
-    border-bottom: 1px solid #7DB7FF;
+div.button-links > ul > li.active {
+  color: #7db7ff;
+  border-bottom: 1px solid #7db7ff;
 }
-
 
 @media (max-width: 1024px) {
-    .skills-header > h2{
-        text-align: center;
-        font-size: 3.5rem;
-        letter-spacing: 10px;
-    }
+  .skills-header > h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: 10px;
+  }
 
-    .skills-header>p{
-        text-align: center;
-        font-size: 1.2rem;
-    }
+  .skills-header > p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
 
+  div.button-links > ul > li {
+    font-size: 1.2rem;
+  }
 
-    div.button-links>ul>li{
-        font-size: 1.2rem;
-    }
+  .skills-content-wrapper {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .skills-content-wrapper{
-        width: 100%;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    div.data{
-        width: 100%;
-    }
+  div.data {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
-    .skills-header > h2{
-        font-size: 2rem;
-    }
+  .skills-header > h2 {
+    font-size: 2rem;
+  }
 
-    .skills-header > p {
-        font-size: 1.5rem;
-    }
+  .skills-header > p {
+    font-size: 1.5rem;
+  }
 
-    div.button-links>ul>li{
-        font-size: 1rem;
-        transition: all 0.3s ease;
-    }
+  div.button-links > ul > li {
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
 
-    .skills-content-wrapper{
-        width: 100%;
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .skills-content-wrapper {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .skills-header {
-    animation: fadeInUp 1s ease-in-out;
-    animation-timeline: view();
-    animation-range: entry 0% cover 50%;
+  animation: fadeInUp 1s ease-in-out;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
 }
 
-.button-links  {
-    animation: fadeInUp 1s ease-in-out;
-    animation-timeline: view();
-    animation-range: entry 0% cover 50%;
+.button-links {
+  animation: fadeInUp 1s ease-in-out;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
 }
-

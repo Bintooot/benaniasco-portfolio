@@ -32,9 +32,7 @@ const Skills = (props) => {
     <div className="skills-wrapper" id={props.id}>
       <div className="skills-header">
         <h2>Skills & Tools</h2>
-        <p>Skills that I'm profecient in.</p>
       </div>
-
       <div className="button-links">
         <ul>
           <li
