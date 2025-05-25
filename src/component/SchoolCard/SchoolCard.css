@@ -2,7 +2,12 @@
   width: 90%;
   display: flex;
   padding: 20px;
-  border: 1px solid rgba(159, 157, 157, 0.521);
+  background: linear-gradient(
+    145deg,
+    rgba(15, 52, 96, 0.7),
+    rgba(7, 20, 56, 0.8)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
   justify-content: center;
   align-items: center;
   border-radius: 20px;
@@ -10,10 +15,13 @@
 }
 
 .education-card > .logo {
-  width: 20%;
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+.education-card > .logo > img {
+  filter: drop-shadow(0 0 10px #000);
 }
 
 .info-item > h3 {
@@ -42,9 +50,30 @@
     align-items: center;
   }
 
+  .education-card > .logo > img {
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s ease-in-out;
+  }
+
   .education-card > .logo {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+  .info-item > h3 {
+    font-size: 1.5rem;
+  }
+  .info-item > p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .education-card > .logo > img {
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease-in-out;
   }
 }

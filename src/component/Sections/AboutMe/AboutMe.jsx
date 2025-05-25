@@ -20,9 +20,11 @@ const AboutMe = (props) => {
               <p>
                 I'm a web developer with a strong focus on front-end development
                 and a working knowledge of back-end technologies. I create
-                responsive, user-friendly websites using HTML, CSS, JavaScript,
-                and frameworks like React. I also have experience with basic
-                server-side development using Node.js and databases. I'm
+                responsive, user-friendly websites using{" "}
+                <span>HTML, CSS, JavaScript</span>, and frameworks like{" "}
+                <span>React</span>. I also have experience with basic
+                server-side development using{" "}
+                <span>Node.js and databases either NoSQL or SQL</span>. I'm
                 passionate about building clean, functional web experiences and
                 continuously learning to grow in the field.
               </p>
