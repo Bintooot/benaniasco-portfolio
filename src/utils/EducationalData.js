@@ -6,8 +6,8 @@ export const educData = [
     schoolName: "University of Mindanao Tagum College (UMTC)",
     year: "2021 - 2025",
     schoolLogo: Logo,
-    relevantCourses: "Algorithms, Web Development, Database Systems",
+    relevantCourses: "Web Development, Database Systems, Networking.",
     capstoneProject:
-      "Request Management System & IoT Based Mobile Incubator Monitoring & Controller",
+      "Request Management System & IoT Based Mobile Incubator Monitoring & Controller.",
   },
 ];

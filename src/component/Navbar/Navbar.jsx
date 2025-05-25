@@ -4,7 +4,7 @@ import "./Navbar.css";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import { Email, GitHub, Facebook, LinkedIn } from "@mui/icons-material";
-import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
+import ArrowRightOutlinedIcon from "@mui/icons-material/ArrowRightOutlined";
 
 const Navbar = () => {
   const [active, setActive] = useState("home");
@@ -63,7 +63,7 @@ const Navbar = () => {
                 onClick={() => activeHandler("home")}
               >
                 Home
-                <ArrowCircleRightOutlinedIcon style={{ fontSize: "30px" }} />
+                <ArrowRightOutlinedIcon style={{ fontSize: "30px" }} />
               </a>
             </li>
             <li>
@@ -75,7 +75,7 @@ const Navbar = () => {
                 onClick={() => activeHandler("about-me")}
               >
                 About Me
-                <ArrowCircleRightOutlinedIcon style={{ fontSize: "30px" }} />
+                <ArrowRightOutlinedIcon style={{ fontSize: "30px" }} />
               </a>
             </li>
             <li>
@@ -87,7 +87,7 @@ const Navbar = () => {
                 onClick={() => activeHandler("skills")}
               >
                 Skills
-                <ArrowCircleRightOutlinedIcon style={{ fontSize: "30px" }} />
+                <ArrowRightOutlinedIcon style={{ fontSize: "30px" }} />
               </a>
             </li>
             <li>
@@ -99,7 +99,7 @@ const Navbar = () => {
                 onClick={() => activeHandler("projects")}
               >
                 Projects
-                <ArrowCircleRightOutlinedIcon style={{ fontSize: "30px" }} />
+                <ArrowRightOutlinedIcon style={{ fontSize: "30px" }} />
               </a>
             </li>
             <li>
@@ -111,7 +111,7 @@ const Navbar = () => {
                 onClick={() => activeHandler("contact-me")}
               >
                 Contact Me
-                <ArrowCircleRightOutlinedIcon style={{ fontSize: "30px" }} />
+                <ArrowRightOutlinedIcon style={{ fontSize: "30px" }} />
               </a>
             </li>
           </ul>

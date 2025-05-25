@@ -61,6 +61,7 @@ div.info-card > p {
 }
 
 div.info-card > p > span {
+  border-radius: 5px;
   background-color: #0a65d479;
   padding: 5px;
 }
@@ -176,6 +177,7 @@ div.info-card > p::before {
   animation-timeline: view();
   animation-range: entry 0% cover 50%;
 }
+
 @keyframes fadeInLeft {
   from {
     opacity: 0;

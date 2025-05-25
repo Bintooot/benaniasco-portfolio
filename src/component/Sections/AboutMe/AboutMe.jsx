@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./AboutMe.css";
 import profile from "../../../assets/photo-me.jpg";
 import { educData } from "../../../utils/EducationalData.js";
@@ -18,15 +18,15 @@ const AboutMe = (props) => {
             <div className="info-card">
               <h2>About Me</h2>
               <p>
-                I'm a web developer with a strong focus on front-end development
-                and a working knowledge of back-end technologies. I create
+                I’m a web developer with a strong focus on front-end development
+                and a solid working knowledge of back-end technologies. I create
                 responsive, user-friendly websites using{" "}
-                <span>HTML, CSS, JavaScript</span>, and frameworks like{" "}
+                <span> HTML, CSS, JavaScript </span>, and frameworks like{" "}
                 <span>React</span>. I also have experience with basic
-                server-side development using{" "}
-                <span>Node.js and databases either NoSQL or SQL</span>. I'm
-                passionate about building clean, functional web experiences and
-                continuously learning to grow in the field.
+                server-side development using <span>Node.js</span>, along with
+                both <span> SQL and NoSQL databases</span>. I'm passionate about
+                building clean, functional web experiences and am committed to
+                continuous learning and growth in the field.
               </p>
             </div>
           </div>

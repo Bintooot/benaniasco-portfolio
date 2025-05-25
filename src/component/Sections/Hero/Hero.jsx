@@ -5,17 +5,15 @@ import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 import GithubOutlinedIcon from "@mui/icons-material/GitHub";
 import LinkedInOutlinedIcon from "@mui/icons-material/LinkedIn";
 import EmailOutlinedIcon from "@mui/icons-material/Email";
-
 import { motion } from "framer-motion";
-import { Translate } from "@mui/icons-material";
 
 const Hero = (props) => {
   return (
     <>
       <div className="hero-wrapper" id={props.id}>
         <motion.section
-          initial={{ opacity: 0, y: 100 }}
-          whileInView={{ opacity: 1, y: -50 }}
+          initial={{ opacity: 0, y: 150 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           viewport={{ once: false, amount: 0.5 }}
         >
