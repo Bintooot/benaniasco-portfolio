@@ -1,55 +1,51 @@
 .projects-wrapper {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../../../assets/background/top-bg.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .projects-wrapper > h2 {
-    font-size: 5rem;
-    text-align: center;
-    letter-spacing: 10px;
-    margin-bottom: 20px;
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #7db7ff;
+  filter: drop-shadow(0 0 10px #018cf0);
+  margin-bottom: 20px;
 }
 
-.projects-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 @media screen and (max-width: 1024px) {
-    .projects-wrapper > h2{
-        font-size: 3rem;
-        transition: all 0.3s ease;
-        letter-spacing: 10px;
-    }
-
-
+  .projects-wrapper > h2 {
+    font-size: 3rem;
+    transition: all 0.3s ease;
+    letter-spacing: 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .projects-wrapper > h2{
-        font-size: 2rem;
-        transition: all 0.3s ease;
-    }
+  .projects-wrapper > h2 {
+    font-size: 2rem;
+    transition: all 0.3s ease;
+  }
 }
 
 .projects-wrapper > h2 {
-    animation: fadeInUp 1s ease-in-out;
-    animation-timeline: view();
-    animation-range: entry 0% cover 50%;
+  animation: fadeInRight 1s ease-in-out;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
 }
 
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

@@ -37,44 +37,32 @@ section.about-me-content > div.left-col > img:hover {
   transition: all 0.3s ease;
 }
 
-section.about-me-content > div.right-col > img {
-  width: 60%;
-}
-
 section.about-me-content > div.right-col {
   width: 60%;
   padding: 20px;
+}
+
+div.info-card {
+  width: 90%;
 }
 
 div.info-card > h2 {
   font-size: 4.5rem;
   margin-bottom: 10px;
   letter-spacing: 10px;
-}
-
-div.info-card > h3 {
-  font-size: 2rem;
-  margin-bottom: 10px;
   color: #7db7ff;
+  filter: drop-shadow(0 0 10px #018cf0);
+}
+div.info-card > p {
+  text-align: justify;
+  font-size: 1.8rem;
 }
 
-div.info-card > ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  line-height: 35px;
-}
-
-div.info-card > ul > li {
-  margin-bottom: 10px;
-  font-size: 1.5rem;
-}
-
-div.info-card > ul > li::before {
+div.info-card > p::before {
   content: "➔";
   color: #7db7ff;
   margin-right: 10px;
-  filter: drop-shadow(0 0 5px #7db7ff);
+  filter: drop-shadow(0 0 10px #018cf0);
 }
 
 .educ-background-wrapper {

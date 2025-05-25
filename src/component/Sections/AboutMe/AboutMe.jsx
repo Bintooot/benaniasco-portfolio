@@ -17,26 +17,15 @@ const AboutMe = (props) => {
           <div className="right-col">
             <div className="info-card">
               <h2>About Me</h2>
-              <h3> I build website either static or dynamic</h3>
-              <ul>
-                <li>
-                  I’m someone who loves bringing websites to life especially
-                  when it comes to creating clean, user-friendly designs.
-                </li>
-                <li>
-                  I get really into the UI/UX side of things, making sure
-                  everything not only looks great but feels smooth to use.
-                </li>
-                <li>
-                  I enjoy solving logical problems and digging into the coding
-                  side to make sure everything works just right.
-                </li>
-                <li>
-                  Whether it's designing an interface or figuring out how to
-                  make a feature tick, I’m all about building cool, functional
-                  stuff for the web.
-                </li>
-              </ul>
+              <p>
+                I'm a web developer with a strong focus on front-end development
+                and a working knowledge of back-end technologies. I create
+                responsive, user-friendly websites using HTML, CSS, JavaScript,
+                and frameworks like React. I also have experience with basic
+                server-side development using Node.js and databases. I'm
+                passionate about building clean, functional web experiences and
+                continuously learning to grow in the field.
+              </p>
             </div>
           </div>
         </section>
