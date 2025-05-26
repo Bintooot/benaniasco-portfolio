@@ -26,7 +26,7 @@ const CantactMe = (props) => {
                   <span>
                     <EmailOutlinedIcon style={{ fontSize: "2rem" }} />
                   </span>{" "}
-                  anaiscoben@gmail.com
+                  aniascoben@gmail.com
                 </a>
               </li>
               <li className="contact-info-item">

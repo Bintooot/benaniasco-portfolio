@@ -8,6 +8,15 @@ import EmailOutlinedIcon from "@mui/icons-material/Email";
 import { motion } from "framer-motion";
 
 const Hero = (props) => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/files/CV.pdf";
+    link.download = "CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
       <div className="hero-wrapper" id={props.id}>
@@ -33,6 +42,7 @@ const Hero = (props) => {
                 <div className="button-box-wrapper">
                   <div className="download-cv-wrapper">
                     <Button
+                      onClick={handleDownload}
                       text="Download CV"
                       icon={<FileDownloadOutlinedIcon />}
                     />
@@ -41,7 +51,7 @@ const Hero = (props) => {
                   <div className="social-links-wrapper">
                     <a
                       className="social-link"
-                      href="https://github.com/yourusername"
+                      href="https://github.com/Bintooot"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="GitHub Profile"
@@ -52,7 +62,7 @@ const Hero = (props) => {
                     </a>
                     <a
                       className="social-link"
-                      href="https://www.linkedin.com/in/yourusername"
+                      href="https://www.linkedin.com/in/ben-raymond-aniasco-381523334/"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="LinkedIn Profile"
@@ -63,7 +73,7 @@ const Hero = (props) => {
                     </a>
                     <a
                       className="social-link"
-                      href="mailto:your.email@example.com"
+                      href="mailto:aniascoben@gmail.com"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Email"
