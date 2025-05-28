@@ -8,16 +8,6 @@ const Banner = () => {
       <section className="banner-wrapper">
         <div className="card-wrapper">
           <div className="card-item">
-            <h2>{data.client}</h2>
-            <p>Clients</p>
-          </div>
-          <div className="separator"></div>
-          <div className="card-item">
-            <h2>{data.client}</h2>
-            <p>Employees</p>
-          </div>
-          <div className="separator"></div>
-          <div className="card-item">
             <h2>{data.projects}</h2>
             <p>Projects</p>
           </div>
