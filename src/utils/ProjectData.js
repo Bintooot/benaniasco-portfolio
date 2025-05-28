@@ -20,7 +20,7 @@ export const projectData = [
       "MongoDB",
     ],
     github: "https://github.com/Bintooot/request_management_system.git",
-    live: "https://project1.com",
+    live: "#",
   },
   {
     id: 2,
@@ -30,8 +30,8 @@ export const projectData = [
     image: Radiant,
     time: "September 2024 - October 2024",
     techStack: ["HTML", "JavaScript", "React", "Tailwind CSS"],
-    github: "https://github.com/project2",
-    live: "https://project2.com",
+    github: "https://github.com/Bintooot/book_event",
+    live: "#",
   },
   {
     id: 3,
@@ -42,6 +42,6 @@ export const projectData = [
     time: "October 2024 - November 2024",
     techStack: ["React Native", "CSS", "JavaScript", "Expo", "Firebase"],
     github: "https://github.com/Bintooot/incubator-app-controller",
-    live: "https://project3.com",
+    live: "#",
   },
 ];
