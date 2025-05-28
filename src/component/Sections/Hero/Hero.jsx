@@ -37,7 +37,7 @@ const Hero = (props) => {
               <h2>
                 → Hello, I'm <span className="name">Ben Raymond Aniasco</span>
               </h2>
-              <p>Web Developer | Problem Solver | Creative Thinker</p>
+              <p>Front-End Web Developer</p>
               <section className="button-box">
                 <div className="button-box-wrapper">
                   <div className="download-cv-wrapper">

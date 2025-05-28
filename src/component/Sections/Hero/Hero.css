@@ -33,42 +33,19 @@
   font-size: 3rem;
   text-align: center;
   margin-bottom: 20px;
-}
-
-.hero-text > h2 {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.hero-text > h2 > span.name {
-  color: #7db7ff;
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 2px solid #7db7ff;
-  width: 0;
-  animation: typing 3s steps(30, end) infinite alternate,
-    blink 0.75s step-end infinite;
-}
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 20ch;
-  }
+.hero-text>h2 > span {
+  color: #fff;
+  text-shadow: 0 0 10px #465be6, 0 0 20px #465be6, 0 0 30px #465be6;
+  font-weight: 700;
 }
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-
 .hero-text > p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-align: center;
   font-style: italic;
   margin-bottom: 20px;
