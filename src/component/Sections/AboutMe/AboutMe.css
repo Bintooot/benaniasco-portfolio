@@ -84,6 +84,7 @@ div.info-card > p::before {
 .educ-background-wrapper > h2 {
   font-size: 3.5rem;
   margin: 20px 55px;
+  color: #7db7ff;
 }
 
 .educ-background-wrapper > .educ-background-content {
@@ -94,10 +95,6 @@ div.info-card > p::before {
   gap: 20px;
   justify-content: space-around;
   align-items: center;
-}
-
-.educ-background-wrapper > h2 {
-  color: #7db7ff;
 }
 
 /* Tablet */
