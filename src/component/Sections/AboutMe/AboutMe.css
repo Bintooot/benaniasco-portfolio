@@ -96,6 +96,10 @@ div.info-card > p::before {
   align-items: center;
 }
 
+.educ-background-wrapper > h2 {
+  color: #7db7ff;
+}
+
 /* Tablet */
 @media (max-width: 1023px) {
   section.about-me-content {
