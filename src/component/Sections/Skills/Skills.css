@@ -103,6 +103,28 @@ div.button-links > ul > li.active {
   }
 }
 
+@media (max-width: 480px) {
+  .skills-header > h2 {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+  }
+
+  .skills-header > p {
+    font-size: 1rem;
+  }
+
+  div.button-links > ul > li {
+    font-size: 0.8rem;
+    padding: 5px;
+    letter-spacing: 2px;
+  }
+
+  .skills-content-wrapper {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .skills-header {
   animation: fadeInUp 1s ease-in-out;
   animation-timeline: view();

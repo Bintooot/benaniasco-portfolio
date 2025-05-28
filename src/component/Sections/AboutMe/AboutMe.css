@@ -162,6 +162,31 @@ div.info-card > p::before {
   }
 }
 
+@media (max-width: 500px) {
+  .left-col > img {
+    width: 250px;
+    height: 300px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  div.info-card > h2 {
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  div.info-card > p {
+    text-align: justify;
+    font-size: 0.9rem;
+    line-height: 2.5rem;
+  }
+
+  .educ-background-wrapper > h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
 .left-col {
   animation: fadeInLeft 1s ease-in-out;
   animation-timeline: view();
