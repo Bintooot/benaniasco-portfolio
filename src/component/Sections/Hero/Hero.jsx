@@ -11,7 +11,7 @@ const Hero = (props) => {
   
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/files/CV.pdf";
+    link.href = process.env.PUBLIC_URL + "/files/CV.pdf";
     link.download = "CV.pdf";
     document.body.appendChild(link);
     link.click();
