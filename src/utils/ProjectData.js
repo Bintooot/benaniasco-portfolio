@@ -1,5 +1,4 @@
 import RMS from "../assets/RMS.png";
-import Radiant from "../assets/Radiant.png";
 import AppController from "../assets/App-Controller.png";
 import Velienne from "../assets/Velienne.png";
 
