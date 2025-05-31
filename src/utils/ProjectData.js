@@ -12,7 +12,7 @@ export const projectData = [
     time: "May 30, 2025 - Present",
     techStack: ["HTML", "CSS", "JavaScript", "React"],
     github: "https://github.com/Bintooot/velienne",
-    live: "#",
+    live: "https://bintooot.github.io/velienne/",
   },
   {
     id: 2,
