@@ -25,13 +25,13 @@ export const projectData = [
   },
   {
     id: 2,
-    name: "Radiant Reception Booking System (Landing Page)",
+    name: "Velienne - Landing Page",
     description:
-      "A visually engaging landing page designed to promote and facilitate bookings for reception events. It highlights keyservices, showcases venue details, and provides an easy-to-use interface for users to make inquiries or reserve dates",
-    image: Radiant,
-    time: "September 2024 - October 2024",
-    techStack: ["HTML", "JavaScript", "React", "Tailwind CSS"],
-    github: "https://github.com/Bintooot/book_event",
+      "A visually appealing landing page designed to showcase the Velienne Restaurant. It features a modern design, highlights the restaurant's offerings, and provides an easy-to-navigate interface for users to explore the menu and make reservations.",
+    image: Velienne,
+    time: "May 30, 2025 - Present",
+    techStack: ["HTML", "CSS", "JavaScript", "React"],
+    github: "https://github.com/Bintooot/velienne",
     live: "#",
   },
   {
@@ -43,17 +43,6 @@ export const projectData = [
     time: "October 2024 - November 2024",
     techStack: ["React Native", "CSS", "JavaScript", "Expo", "Firebase"],
     github: "https://github.com/Bintooot/incubator-app-controller",
-    live: "#",
-  },
-  {
-    id: 4,
-    name: "Velienne - Landing Page",
-    description:
-      "A visually appealing landing page designed to showcase the Velienne Restaurant. It features a modern design, highlights the restaurant's offerings, and provides an easy-to-navigate interface for users to explore the menu and make reservations.",
-    image: Velienne,
-    time: "May 30, 2025 - Present",
-    techStack: ["HTML", "CSS", "JavaScript", "React"],
-    github: "https://github.com/Bintooot/velienne",
     live: "#",
   },
 ];
