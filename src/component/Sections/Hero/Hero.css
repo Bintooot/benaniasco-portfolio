@@ -33,13 +33,10 @@
   font-size: 3rem;
   text-align: center;
   margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
   gap: 10px;
 }
 
-
-.hero-text>h2 > span {
+.hero-text > h2 > span {
   color: #fff;
   text-shadow: 0 0 10px #465be6, 0 0 20px #465be6, 0 0 30px #465be6;
   font-weight: 700;
