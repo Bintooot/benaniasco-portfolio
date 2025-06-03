@@ -9,7 +9,7 @@ export const projectData = [
     description:
       "A visually appealing landing page designed to showcase the Velienne Restaurant. It features a modern design, highlights the restaurant's offerings, and provides an easy-to-navigate interface for users to explore the menu and make reservations.",
     image: Velienne,
-    time: "May 30, 2025 - Present",
+    time: "May 30, 2025 - Jun 2, 2025",
     techStack: ["HTML", "CSS", "JavaScript", "React"],
     github: "https://github.com/Bintooot/velienne",
     live: "https://bintooot.github.io/velienne/",
