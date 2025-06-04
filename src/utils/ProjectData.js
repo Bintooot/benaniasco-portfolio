@@ -10,7 +10,7 @@ export const projectData = [
     description:
       "DevFinder is a responsive web app that allows users to search for GitHub profiles and view key information including avatar, bio, repositories, followers, and more.",
     image: DevFinder,
-    time: "May 30, 2025 - Jun 2, 2025",
+    time: "Jun 3, 2025 - Jun 4, 2025",
     techStack: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/Bintooot/DevFinder",
     live: "https://bintooot.github.io/DevFinder/",
