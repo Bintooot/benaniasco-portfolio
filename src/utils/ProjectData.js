@@ -7,11 +7,11 @@ import PortfolioV2 from "../assets/Portfolio-v2.png";
 export const projectData = [
   {
     id: 1,
-    name: "Portfolio V2 | Ben Raymond Aniasco",
+    name: "Portfolio v.2 | Ben Raymond Aniasco",
     description:
       "This is my second portfolio website, showcasing my skills and projects. It features a modern design, responsive layout, and interactive elements to enhance user experience. The site highlights my work in web development and provides links to my GitHub and live projects.",
     image: PortfolioV2,
-    time: "Jun 2025 - Jun 2025",
+    time: "June 2025 - Present",
     techStack: ["HTML", "CSS", "JavaScript", "React"],
     github: "https://github.com/Bintooot/aniascoben-portfolio",
     live: "https://bintooot.github.io/aniascoben-portfolio/",
@@ -22,7 +22,7 @@ export const projectData = [
     description:
       "DevFinder is a responsive web app that allows users to search for GitHub profiles and view key information including avatar, bio, repositories, followers, and more.",
     image: DevFinder,
-    time: "Jun 2025 - Jun 2025",
+    time: "June 2025 - June 2025",
     techStack: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/Bintooot/DevFinder",
     live: "https://bintooot.github.io/DevFinder/",
@@ -33,7 +33,7 @@ export const projectData = [
     description:
       "A visually appealing landing page designed to showcase the Velienne Restaurant. It features a modern design, highlights the restaurant's offerings, and provides an easy-to-navigate interface for users to explore the menu and make reservations.",
     image: Velienne,
-    time: "May 2025 - Jun 2025",
+    time: "May 2025 - June 2025",
     techStack: ["HTML", "CSS", "JavaScript", "React"],
     github: "https://github.com/Bintooot/velienne",
     live: "https://bintooot.github.io/velienne/",
