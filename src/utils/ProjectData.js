@@ -11,7 +11,7 @@ export const projectData = [
     description:
       "This is my second portfolio website, showcasing my skills and projects. It features a modern design, responsive layout, and interactive elements to enhance user experience. The site highlights my work in web development and provides links to my GitHub and live projects.",
     image: PortfolioV2,
-    time: "June 2025 - Present",
+    time: "June 2025 - June 2025",
     techStack: ["HTML", "CSS", "JavaScript", "React"],
     github: "https://github.com/Bintooot/aniascoben-portfolio",
     live: "https://bintooot.github.io/aniascoben-portfolio/",
