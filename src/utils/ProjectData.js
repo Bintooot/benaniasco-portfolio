@@ -25,7 +25,7 @@ export const projectData = [
     time: "June 2025 - June 2025",
     techStack: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/Bintooot/DevFinder",
-    live: "https://bintooot.github.io/DevFinder/",
+    live: "https://dev-finder-bintooots-projects.vercel.app/",
   },
   {
     id: 3,
