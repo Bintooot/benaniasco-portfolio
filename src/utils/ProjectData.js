@@ -14,7 +14,7 @@ export const projectData = [
     time: "June 2025 - June 2025",
     techStack: ["HTML", "CSS", "JavaScript", "React"],
     github: "https://github.com/Bintooot/aniascoben-portfolio",
-    live: "https://bintooot.github.io/aniascoben-portfolio/",
+    live: "https://aniascoben-portfolio.vercel.app",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ export const projectData = [
     time: "May 2025 - June 2025",
     techStack: ["HTML", "CSS", "JavaScript", "React"],
     github: "https://github.com/Bintooot/velienne",
-    live: "https://bintooot.github.io/velienne/",
+    live: "https://velienne.vercel.app",
   },
   {
     id: 4,
